@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Zoom UI */
+.row{
+    margin: 3vh 10vw;
+}
+
+.first-row{
+    margin-top: 10vh;
+}
+.last-row{
+    margin-bottom: 6vh;
+}
+
+/* div.row:last-of-type{
+    margin-bottom: 6vh;
+} */
+
+
+.card{
+    display: inline-block;
+    width: 15vw;
+    height: 15vh;
+    border: 2px solid #ccc;
+    background-color: #e4e4e4;
+    border-radius: 5px;
+    /* box-shadow: 3px 3px 2px grey; */
+}
+
+.footer{
+    border: 2px solid #ccc;
+    background-color: #e4e4e4;
+    width: 100vw;
+    height: 10vh;
+}
+
+.profile{
+    display: block;
+    width: 65%;
+    height: 80%;
+    margin:0 auto 0;
+}
+
+.icons{
+    width: 20px;
+    height: 20px;
+    margin: 20px 95px;
+    padding: 20px auto;
+}
+
+body{
+    background-color: #000;
+}
+
+.names{
+    color: #ccc;
+    background-color: #161514;
+    border-radius: 2px;
+}
+
+/* Where are you */
+input{
+    display: block;
+    width: 65%;
+    /* height: 90%; */
+    margin: 5vh auto;
+    font-size: 1.2rem;
+}
+
+input[type=text]{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+input[type=submit]{
+    border: none;
+    color:white;
+    height: 40px;
+    background-color: #80c218;
+}
+
+.icons2{
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+}
+
+.map{
+    width: 28vw;
+    margin: 10px auto 0px;
+
+}
+
+.header{
+    margin: 0 auto;
+}
+
+.title{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline-block;
+    margin: 20px 6vw;
+}
+
+.section{
+    border: 2px solid #ccc;
+    width: 60%;
+    margin: 10px auto;
+}
